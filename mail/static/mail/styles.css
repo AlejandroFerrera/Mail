@@ -1,3 +1,50 @@
 textarea {
     min-height: 400px;
 }
+
+p {
+    margin: 0;
+}
+
+.email {
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 16px;
+    margin: 5px 0;
+    align-items: center;
+    padding: 10px;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.email:hover {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.email p:first-child {
+    margin-right: 15px;
+}
+
+
+.email p:last-child {
+    margin-left: auto;
+    color: gray;
+}
+
+.read {
+    background-color: rgb(231, 228, 228);
+    font-weight: normal;
+}
+
+.unread {
+    background-color: white;
+    font-weight: bolder;
+}
+
+.action-icon {
+    width: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+    color: gray;
+}
